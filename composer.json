@@ -1,0 +1,30 @@
+{
+    "name":        "hackzilla/adminbundle",
+    "type":        "symfony-bundle",
+    "description": "Literally combining knpmenu & fos user bundles for a very basic admin.",
+    "keywords":    ["admin", "menu"],
+    "homepage":    "http://github.com/hackzilla/adminbundle",
+    "license":     "LGPL-3.0+",
+
+    "authors": [
+        {
+            "name": "Daniel Platt",
+            "homepage": "https://www.hackzilla.org/"
+        }
+    ],
+    "require": {
+        "php":                          ">=5.3.2",
+        "symfony/framework-bundle":     ">=2.0,<2.3-dev",
+        "symfony/security-bundle":      ">=2.0,<2.3-dev",
+        "symfony/twig-bundle":          ">=2.0,<2.3-dev",
+        "friendsofsymfony/user-bundle": ">=1.2,<2.0-dev",
+        "knplabs/knp-menu-bundle":      "1.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hackzilla\\Bundle\\AdminBundle": ""
+        }
+    },
+
+    "target-dir": "Hackzilla/Bundle/AdminBundle"
+}
